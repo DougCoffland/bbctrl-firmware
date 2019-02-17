@@ -53,7 +53,7 @@ if [ ! -e rpi-share/camotics ]; then
     if [ "$CAMOTICS_HOME" != "" ]; then
         fetch_local_repo rpi-share/camotics "$CAMOTICS_HOME" master
     else
-        git clone https://github.com/CauldronDevelopmentLLC/camotics \
+        git clone https://github.com/DougCoffland/camotics \
             rpi-share/camotics
     fi
 fi
